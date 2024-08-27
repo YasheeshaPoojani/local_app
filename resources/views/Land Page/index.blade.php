@@ -30,9 +30,8 @@
                 </div>
 
                 <div class="button">
-                    <a href="{{ route('signup') }}"><button class="signup">Sign Up</button></a>
-                    <a href="{{ route('login') }}"><button class="signin">Sign In</button></a>
-                </div>
+                    <a href="{{ route('signup') }}"><button class="signup">Join Us</button></a>
+                 </div>
             </div>
             <div>
                 <img class="pic1" src="{{ asset('asset2/IMG-20240607-WA0014 .jpg') }}" alt="">
@@ -44,16 +43,8 @@
 
             <div class="srch">
                 <form action="" method="get">
-                    <input type="text" value="Job title, Keyword" name="search">
-                    <select name="category">
-                        <option value="all">Location</option>
-                        <option value="op1">Polonnaruwa</option>
-                        <option value="op2">Ratnapura</option>
-                        <option value="op3">Kandy</option>
-                        <option value="op4">Jaffna</option>
-                        <option value="op5">Colombo</option>
-                    </select>
-                    <button type="submit" href="">Search</button>
+                    <input type="text" value="Catagories" name="search">
+                 <button type="submit" href="">Search</button>
                 </form>
             </div>
 
